@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+    <meta name="description" content="" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <meta property="og:title" content="" />
+    <meta property="og:type" content="" />
+    <meta property="og:url" content="" />
+    <meta property="og:image" content="" />
+
+    <link rel="manifest" href="site.webmanifest" />
+    <link rel="apple-touch-icon" href="icon.png" />
+    <!-- Place favicon.ico in the root directory -->
+
+    <link rel="stylesheet" href="css/normalize.css" />
+    <link rel="stylesheet" href=https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+    />
+    <link rel="stylesheet" href="css/main.css" />
+    <link rel="stylesheet" href="css/gallery.css" />
+
+    <meta name="theme-color" content="#fafafa" />
+  </head>
+  <body>
+    <!--filter buttons-->
+    <div class="row">
+      <div class="col-lg-8 mx-auto d-flex justify-content-around my-2 sortBtn flex-wrap">
+        <a href="#" class="btn btn-outline-secondary btn-black text-uppercase filter-btn m-2"
+        data-filter="bikes"
+        >
+        bikes</a>
+        <a href="#" class="btn btn-outline-secondary btn-black text-uppercase filter-btn m-2"
+        data-filter="car">car</a>
+      </div>
+      </div>
+      <!-- search box -->
+      <div class ="row">
+        <div class="col-10 mx-auto col-md-6">
+          <form>
+            <div class="input-group mb-3">
+              <div class="input-group-prepend">
+                <span class="input-group-text search-box" id="search-icon">
+                  <i class="fas fa-search"></i> 
+                </span>
+              </div>
+            <input type="text" class="form-control" placeholder="car or bikes..." id="search-item" /> 
+            </div>
+          </form>
+        </div>
+      </div> 
+      <!-- end of filter buttons -->
+      <div class="row" class="store-items" id="store-items">
+        <!-- single item -->
+        <div class="col-10 col-sm-6 col-lg-4 mx-auto my-3 store-item car"
+        data-item="car">
+        <div class="card">
+          <div class="img-container">
+            <img src="./img/car-1.jpg" class="card-img-top store-img"
+            alt="" />
+          </div>
+        </div>
+        <!-- end of card -->
+              </div>
+       <!-- end of single store item -->
+       <!-- single item -->
+       <div class="col-10 col-sm-6 col-lg-4 mx-auto my-3 store-item car"
+       data-item="car">
+       <div class="card">
+         <div class="img-container">
+           <img src="./img/car-2.jpg" class="card-img-top store-img"
+           alt="" />
+         </div>
+       </div>
+       <!-- end of card -->
+             </div>
+      <!-- end of single store item -->     
+<!-- single item -->
+<div
+class="col-10 col-sm-6 col-lg-4 mx-auto my-3 store-item doughnuts"
+data-item="dougnuts"
+>
+<div class="card">
+  <div class="img-container">
+    <img
+      src="./img/car-3.jpg"
+      class="card-img-top store-img"
+      alt=""
+    />
+  </div>
+</div>
+<!-- end of card-->
+</div>
+<!--end of single store item-->
+<!-- single item -->
+
+<div
+class="col-10 col-sm-6 col-lg-4 mx-auto my-3 store-item bikes"
+data-item="bikes"
+>
+<div class="card">
+  <div class="img-container">
+    <img
+      src="./img/bikes-1.jpg"
+      class="card-img-top store-img"
+      alt=""
+    />
+  </div>
+</div>
+<!-- end of card-->
+</div>
+<!--end of single store item-->
+<!-- single item -->
+<div
+class="col-10 col-sm-6 col-lg-4 mx-auto my-3 store-item bikes"
+data-item="bikes"
+>
+<div class="card">
+  <div class="img-container">
+    <img
+      src="./img/bikes-2.jpg"
+      class="card-img-top store-img"
+      alt=""
+    />
+  </div>
+</div>
+<!-- end of card-->
+</div>
+<!--end of single store item-->
+<!-- single item -->
+<div
+class="col-10 col-sm-6 col-lg-4 mx-auto my-3 store-item bikes"
+data-item="bikes"
+>
+<div class="card">
+  <div class="img-container">
+    <img
+      src="./img/bikes-2.jpg"
+      class="card-img-top store-img"
+      alt=""
+    />
+  </div>
+</div>
+<!-- end of card-->
+</div>
+<!--end of single store item-->
+      </div>
+      <div class="card-body">
+        <div class="card-text d-flex justify-content-between text-capitalize">
+          <h5>Euro vehicles</h5>
+
+        </div>
+
+      </div> 
+</div>
+<!-- end of card -->
+</div>
+<!-- end of single store item -->
+</div>
+<!-- modal-container -->
+<div id="container-fluid" class="container-fluid">
+  <div class="row lightbox-container align-items-center">
+    <div class="col-10 col-md-10 mx-auto text-right lightbox-holder">
+      <span class="lightbox-close">&times;</span>
+      <div class="lightbox-item"></div>
+      <span class="lightbox-control btnLeft"></span>
+      <span class="lightbox-control btnRight"></span>
+    </div>
+  </div>
+</div>
+<script src="./js/main-gallery.js"></script>
+  </body>
+</html>

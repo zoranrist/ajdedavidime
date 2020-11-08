@@ -1,0 +1,1 @@
+{"version":3,"sources":["todos.css"],"names":[],"mappings":"AAAA,WACE,4BAA6B,CAC7B,UACF,CACA,YACE,UACF","file":"todos.84fdc688.css","sourceRoot":"..","sourcesContent":[".completed {\n  text-decoration: line-through;\n  opacity: 0.5;\n}\n.visibility {\n  opacity: 0.5;\n}\n"]}
